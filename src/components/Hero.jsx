@@ -1,5 +1,5 @@
-import profilePic from "../assets/sharan2.png"
-import { HERO_CONTENT } from "../constants"
+import profilePic from "../assets/sharan-pic.jpg"
+import { ABOUT_TEXT } from "../constants"
 import{ motion } from "framer-motion"
 const containervarient = {
     hidden:{opacity:0, x:-100},
@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
                     <motion.img
-                     src={profilePic} alt="sharan madhavan" className="border border-stone-900 rounded-3xl"
+                     src={profilePic} alt="sharan madhavan" className="border border-stone-800 rounded-3xl"
                      width={400}
                      height={400}
                      initial={{x:100, opacity:0}}
@@ -45,7 +45,7 @@ const Hero = () => {
                      className="pb-2 text-4xl tracking-tighter lg:text-8xl">Sharan Madhavan </motion.h2>
                     <motion.span variants={childVarients} className="bg-gradient-to-r from-stone-300 to-stone-600 
                                      bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Developer</motion.span>
-                            <motion.p variants={childVarients} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">{HERO_CONTENT}</motion.p>
+                            <motion.p variants={childVarients} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">{ABOUT_TEXT}</motion.p>
                             <motion.a variants={childVarients} href="/sharan_resume_org.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer" 
