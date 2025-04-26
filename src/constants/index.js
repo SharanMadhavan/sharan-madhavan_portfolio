@@ -1,12 +1,11 @@
 import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import travel from "../assets/projects/Travel management.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1.5 years of hands-on experience, I have honed my skills in front-end technologies like React Js as well as back-end technologies like Java, Hibernate, SpringBoot, MicroServices, PostgreSQL and MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1.5 years of professional experience, I have worked with a variety of technologies, including React, Jsp, Java, Hibernate, SpringBoot, MicroServices, PostgreSQL and MySQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
+export const ABOUT_TEXT = `I am a passionate Full Stack Developer skilled in React, JSP, Java, Hibernate, Spring Boot, Microservices, PostgreSQL, and MySQL. I thrive on solving complex problems, building scalable web applications, collaborating with teams, and continuously exploring new technologies to deliver high-quality solutions.`;
 export const EXPERIENCES = [
   {
     year: "2025 - Present",
@@ -24,55 +23,21 @@ export const EXPERIENCES = [
     description: `Worked as a Java Full Stack Developer, responsible for implementing new features and developing RESTful APIs using Java, Hibernate SpringBoot, and MySQL. Integrated backend services with frontend components using React, JSP and JavaScript. Followed Agile methodology and actively participated in sprint planning, daily stand-ups, and retrospectives. Managed tasks and tracked progress through Jira, adhering to the full development lifecycle — from story grooming to development, code review, testing, and deployment. Collaborated with QA and DevOps teams to ensure smooth releases using Git and Maven. Focused on delivering responsive UI designs and optimizing overall application performance.`,
     technologies: ["Java", "SpringBoot", "React", "Jsp","MySQL"],
   },
-  // {
-  //   year: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
-  // {
-  //   year: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
 ];
 
 export const PROJECTS = [
   {
-  //   title: "E-Commerce Website",
-  //   image: project1,
-  //   description:
-  //     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-  //   technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  // },
-  // {
-  //   title: "Task Management App",
-  //   image: project2,
-  //   description:
-  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  // },
-  // {
-  //   title: "Portfolio Website",
-  //   image: project3,
-  //   description:
-  //     "A personal portfolio website showcasing projects, skills, and contact information.",
-  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  // },
-  //{
-     title: "Blogging Platform",
-     image: project4,
+  
+     title: "Travel Plan Management System",
+     image: travel,
      description:
-       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+       "Developed a full-stack Travel Plan Management application using Java, Spring Boot, and OpenAPI/Swagger for documentation. The system enables users to manage travel plans efficiently, track itineraries, and handle trips. Integrated Swagger UI for seamless API documentation, allowing developers and stakeholders to easily test and interact with backend APIs.",
+    technologies: ["Java", "Spring Boot", "SQL", "Swaggger API", "mySQL"],
    },
 ];
 
 export const CONTACT = {
-  address: "Hyderabad , telangana , INDIA. ",
+  address: "Hyderabad , Telangana , India. ",
   phoneNo: "8688359854",
   email: "sharanmadhavan@gmail.com",
 };

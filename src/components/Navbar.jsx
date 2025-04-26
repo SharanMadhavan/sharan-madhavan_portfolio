@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
-import logo from "../assets/logo4.png"
+import logo from "../assets/Sharanlogo.png"
 const Navbar = () => {
   return (
    <nav className="flex items-center justify-between py-6">
@@ -9,7 +9,7 @@ const Navbar = () => {
       </a>
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <a href="https://www.linkedin.com/in/sharan-madhavan-dadigela-500601296" 
+      <a href="https://www.linkedin.com/in/sharan-madhavan-dadigela-a63b4a35b" 
       target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
         <FaLinkedin />
       </a>
@@ -17,11 +17,11 @@ const Navbar = () => {
       target="_blank" rel="noopener noreferrer" aria-label="Github">
         <FaGithub />
       </a>
-      <a href="https://www.linkedin.com/in/sharan-madhavan-dadigela-500601296" 
+      <a href="https://www.linkedin.com/in/sharan-madhavan-dadigela-a63b4a35b"
       target="_blank" rel="noopener noreferrer" aria-label="Instagram">
         <FaInstagram />
       </a>
-      <a href="https://www.linkedin.com/in/sharan-madhavan-dadigela-500601296" 
+      <a href="https://twitter.com/@sharan_madhavan" 
       target="_blank" rel="noopener noreferrer" aria-label="Twitter">
         <FaTwitter />
       </a>

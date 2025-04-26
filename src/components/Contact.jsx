@@ -20,8 +20,16 @@ const Contact = () => {
              whileInView={{opacity:1, x:0}}
              initial={{opacity:0, x: 100}}
              transition={{duration: 1}} 
-        className="my-4"> {CONTACT.phoneNo}</motion.p>
-        <a href="#" className="border-b">
+             
+        >
+         <a 
+    href={`tel:${CONTACT.phoneNo}`} 
+    className="border-b border-dashed hover:text-pink-400 transition-all duration-300"
+  >
+    {CONTACT.phoneNo}
+  </a>
+        </motion.p>
+        <a href={`mailto:${CONTACT.email}`}  className="border-b border-dashed hover:text-pink-400 transition-all duration-300">
             {CONTACT.email}
         </a>
     </div>
