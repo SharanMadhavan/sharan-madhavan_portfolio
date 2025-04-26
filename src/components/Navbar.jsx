@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
-import logo from "../assets/Sharanlogo.png"
+import logo from "../assets/SharanLogo.png"
 const Navbar = () => {
   return (
    <nav className="flex items-center justify-between py-6">
