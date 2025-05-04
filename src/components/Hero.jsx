@@ -1,4 +1,4 @@
-import profilePic from "../assets/sharan-pic.jpg"
+import profilePic from "../assets/ds.jpg"
 import { ABOUT_TEXT } from "../constants"
 import{ motion } from "framer-motion"
 const containervarient = {
@@ -21,18 +21,21 @@ const Hero = () => {
   return (
     <div className="pb-4 lg:mb-36">
         <div className="flex flex-wrap lg:flex-row-reverse">
-            <div className="w-full lg:w-1/2">
+            { <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
-                    <motion.img
-                     src={profilePic} alt="sharan madhavan" className="border border-stone-900 rounded-3xl"
-                     width={400}
-                     height={400}
-                     initial={{x:100, opacity:0}}
-                     animate={{x:0, opacity: 1}}
-                     transition={{duration:1, delay:1.5}}
-                     />
+                <motion.img
+  src={profilePic}
+  alt="sharan madhavan"
+  className="rounded-3xl shadow-inner opacity-90"
+  width={400}
+  height={400}
+  initial={{ x: 100, opacity: 0 }}
+  animate={{ x: 0, opacity: 0.9 }}
+  transition={{ duration: 1, delay: 1.5 }}
+/>
+
             </div>
-            </div>
+            </div> }
             <div className="w-full lg:w-1/2">
 
                 <motion.div
