@@ -63,7 +63,7 @@ const Hero = () => {
              bg-gradient-to-r from-purple-400 via-pink-500 to-red-400 
              bg-clip-text text-transparent drop-shadow-[0_0_5px_rgba(255,255,255,0.3)]">Full Stack Developer</motion.span>
                             <motion.p variants={childVarients} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">{ABOUT_TEXT}</motion.p>
-                            <motion.a variants={childVarients} href="/Shranmadhavan_JavaDeveloper_Resume.pdf"
+                            <motion.a variants={childVarients} href="/Shranmadhavan_JavaFullStackDeveloper_Resume.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer" 
                                     download
